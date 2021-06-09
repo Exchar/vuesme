@@ -1,10 +1,10 @@
 {
   // 页面title
-  title: "Exchar的小窝",
+  title: "Exchar - 小窝",
   // 社交链接
   social: {
     gitee: "https://gitee.com/exchar",
-    linkedin: "https://www.linkedin.com/in/%E6%B0%B8%E6%B0%B8-%E6%A8%8A-705071104/",
+    // linkedin: "https://www.linkedin.com/in/%E6%B0%B8%E6%B0%B8-%E6%A8%8A-705071104/",
   },
   // banner页
   banner: {
@@ -52,12 +52,12 @@
         \n步入工作，喜悲欢乐，皆顺应自然~",
       },
       // key - value 数量及内容完全自定义，链接自动识别
-      keys: {
-        "主页": "http://cv.manerfan.com",
-        "博客": "http://blog.manerfan.com",
-        "专栏": "http://zhuanlan.manerfan.com",
-        "公众号": "Exchar"
-      },
+      // keys: {
+      //   "主页": "http://cv.manerfan.com",
+      //   "博客": "http://blog.manerfan.com",
+      //   "专栏": "http://zhuanlan.manerfan.com",
+      //   "公众号": "Exchar"
+      // },
     },
     // 履历
     {
@@ -83,7 +83,7 @@
     },
     // 博客页
     {
-      display: true,
+      display: false,
       anchor: {
         id: "blog",
         icon: "profile",
@@ -93,8 +93,8 @@
         title: "blog",
         subtitle: "latest blog",
       },
-      blog: "https://segmentfault.com/blog/manerfan",
-      rss: "https://segmentfault.com/feeds/blog/manerfan",
+      blog: "",
+      rss: "",
     },
   ],
 }
