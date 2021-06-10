@@ -81,20 +81,32 @@
         },
       ],
     },
-    // 博客页
+    // 项目demo
     {
-      display: false,
+      display: true,
       anchor: {
-        id: "blog",
+        id: "proj",
         icon: "profile",
-        name: "博客",
+        name: "项目"
       },
       header: {
-        title: "blog",
-        subtitle: "latest blog",
+        title: "项目Demo",
+        subtitle: "已部署",
       },
-      blog: "",
-      rss: "",
+      cards: [
+        {
+          title: "阿天音乐",
+          //subtitle: "2017-09 至 2021-06",
+          url: "http://obgdygr.icu:3080",
+          desc: "项目后台使用网易云音乐api"
+        },
+        {
+          title: "易捷贷系统",
+          //subtitle: "2017-09 至 2021-06",
+          url: "http://obgdygr.icu:8080",
+          desc: "p2p金融后台管理系统"
+        },
+      ],
     },
   ],
 }
