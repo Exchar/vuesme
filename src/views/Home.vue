@@ -22,6 +22,7 @@
                     <About v-if="id === 'about'"/>
                     <Blog v-if="id === 'blog'"/>
                     <Experience v-if="id === 'experience'"/>
+                    <Proj v-if="id === 'proj'"></Proj>
                 </a-layout-content>
                 <!-- 页脚 -->
                 <a-layout-footer><Footer/></a-layout-footer>
@@ -45,6 +46,7 @@
     import Experience from '@/components/Experience.vue';
     import Blog from '@/components/Blog.vue';
     import Footer from '@/components/Footer.vue';
+    import Proj from '@/components/Proj.vue';
 
     @Component({
         components: {
@@ -54,6 +56,7 @@
             Experience,
             Blog,
             Footer,
+            Proj,
         },
         computed: {
             ...mapGetters(['moduleIds']),
