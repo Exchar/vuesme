@@ -23,9 +23,9 @@ SOFTWARE.
 -->
 
 <template>
-    <!-- <a :style="{color: color, 'font-size': size + 'em'}" href="https://github.com/manerfan/vuesume/blob/master/LICENSE" target="_blank">
-        ©2020 林舍|Maner·Fan All rights reserved
-    </a> -->
+    <a :style="{color: color, 'font-size': size + 'em'}" href="https://beian.miit.gov.cn" target="_blank">
+        蜀ICP备2021011640号-1
+    </a>
 </template>
 
 <script lang="ts">
